@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Unit Conversion</string>
+    <string name="tab_page1">Units</string>
+    <string name="tab_page2">Convert</string>
+
+    <string name="distanceSwitch">Distance</string>
+    <string name="speedSwitch">Speed</string>
+    <string name="weightSwitch">Weight</string>
+    <string name="heightSwitch">Height</string>
+</resources>

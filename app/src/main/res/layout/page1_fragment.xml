@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:id="@+id/page1_fragment">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:background="#673AB7"
+        android:paddingLeft="20dp">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chosen Category: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:background="#673AB7"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chosen Units: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/unitsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimetre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/unitsTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Metre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/distanceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance"
+            app:backgroundTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/centimetreCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cm"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/metreCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/inchCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="inch"
+            app:buttonTint="#673AB7" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/speedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            app:backgroundTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/kphCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kph"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/mphCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mph"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/mpsCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mps"
+            app:buttonTint="#673AB7" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/weightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            app:backgroundTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/ozCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oz"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/kgCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kg"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/gramCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="g"
+            app:buttonTint="#673AB7" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/timeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            app:backgroundTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/secCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sec"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/minCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="min"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/hrCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hr"
+            app:buttonTint="#673AB7" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/temperatureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature"
+            app:backgroundTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/celsiusCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°C"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/fahrenheitCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°F"
+            app:buttonTint="#673AB7" />
+
+        <CheckBox
+            android:id="@+id/kelvinCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+            app:buttonTint="#673AB7" />
+
+    </TableRow>
+</TableLayout>
