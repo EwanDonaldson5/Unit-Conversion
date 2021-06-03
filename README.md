@@ -26,3 +26,5 @@ conversions involving a single multiplier). Introducing categories of units (dis
 select the units more easily as the number of conversions offered grows. A common feature many users expect is that 
 the app also works correctly when the screen is rotated and that the app also works nicely on larger screens, e.g. tablets. 
 However, you may also have your own ideas for refinement of the app. 
+
+To gain a better understanding of the work I can achieve please look to another one of my repositories, listed as my dissertation.
